@@ -1,5 +1,4 @@
 import telebot
-import random
 
 from telebot import types
 
@@ -10,7 +9,7 @@ bot = telebot.TeleBot('1139813975:AAHKEDk-MHU-d2xADVdoArtuZDlnSk3ZOJM')
 def lalala(message):
     if message.chat.type == 'private':
         if message.text == '/random':
-            bot.send_message(message.chat.id, str(random.randint(0, 100)))
+            bot.send_message(message.chat.id, "random")
 
         elif message.text == '/start':
             bot.send_message(message.chat.id, 'Привет,'+ message.from_user.first_name+'!')
