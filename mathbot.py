@@ -13,9 +13,9 @@ chat_id = Alex
 
 #bot.send_message(Viki, "Привет)))))))")
 
-@bot.message_handler(content_types=['text'])
-def lalala(message):
-    bot.send_message(chat_id, f"{message.text}\n\nFrom: {message.from_user.first_name} \nId: {message.from_user.id}")
+# @bot.message_handler(content_types=['text'])
+# def lalala(message):
+#     bot.send_message(chat_id, f"{message.text}\n\nFrom: {message.from_user.first_name} \nId: {message.from_user.id}")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
