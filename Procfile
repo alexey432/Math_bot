@@ -1,1 +1,1 @@
-worker: python math_bot.py $PORT
+worker: python mathbot.py $PORT
