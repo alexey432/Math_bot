@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from fractions import Fraction
 
-API_TOKEN = '1394050519:AAGIE3ujPdQs8ATO5hvp5-pH2Mx1lprfe7g'
+API_TOKEN = '1176241014:AAGO12D0urL9ATkc-Juejqoq-WCplbOKaL8'
 
 bot = telebot.TeleBot(API_TOKEN)
 
